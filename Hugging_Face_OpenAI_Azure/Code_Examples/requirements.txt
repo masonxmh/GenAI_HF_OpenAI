@@ -1,0 +1,6 @@
+# Core libraries used by the LangChain examples in this folder
+langchain==1.2.15
+langchain-core==1.3.0
+langchain-openai
+langchain-community
+ipykernel==7.2.0
