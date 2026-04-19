@@ -1,6 +1,18 @@
-# Core libraries used by the LangChain examples in this folder
+# Project dependencies inferred from direct imports in the LangChain notebooks.
+# Pinned versions come from the local .venv when installed; unpinned entries were
+# imported in notebooks but were not present in the environment at update time.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
 langchain==1.2.15
+langchain-community==0.4.1
 langchain-core==1.3.0
-langchain-openai
-langchain-community
-ipykernel==7.2.0
+langchain-openai==1.1.14
+langchain-text-splitters==1.1.2
+
+langchain-huggingface==1.2.2
+numpy<2
+torch==2.7.0
+transformers==4.40.2
+
+chromadb
+faiss-cpu
