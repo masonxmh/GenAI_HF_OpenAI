@@ -10,6 +10,7 @@ langchain-openai==1.1.14
 langchain-text-splitters==1.1.2
 
 langchain-huggingface==1.2.2
+ipywidgets==8.1.5
 numpy<2
 torch==2.7.0
 transformers==4.40.2
